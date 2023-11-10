@@ -16,6 +16,7 @@ whole unit is powered by the li-ion battery pack and can be recharged using the 
 
 
 Hardware used : STM32F103C8T6, SIMCOM SIM800l, Ublox Neo 6M, TP4056, li-ion batteries 2400mAh
+
 Software uses : Keil uVision 
 
 
