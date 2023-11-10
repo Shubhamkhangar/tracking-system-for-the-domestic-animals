@@ -99,35 +99,35 @@ GPIOC->CRH |= 0x00300000;
 		        }
 		  else if(x==2){
 			u2_print("\n");
-      u2_print(u2_buff);			
+                        u2_print(u2_buff);			
 			GPIOC->ODR &= ~0x2000; //PA1 blink
 			for(char ptr=0;ptr<10;ptr++){
 			 lat[ptr]=u2_buff[ptr+19];
-								                 }	
-		  for(char pt=0;pt<10;pt++){
+				                    }	
+		         for(char pt=0;pt<10;pt++){
 			 lng[pt]=u2_buff[pt+32];
-								    }
+					          }
 			
 			    
-		      NMEA_Degree(lat,1);
-				  delay(100);
-				  NMEA_Degree(lng,2);
-          delay(100);
-				  u2_print("\ncoordinates: ");
-          u2_print(lat);
-					u2_print(",");							 
-		      u2_print(lng);
-          delay(500);										
-		      GPIOC->ODR |= 0x2000; //PA1 blink			
-		      x=0;
-					//gsm_msg();
-					memset(u2_buff,0,300);
-		      u2_ptr=0;
-					//if(z==4){
-          USART2->CR1 &= ~USART_CR1_RE;
-				  x=3;
-					u2_print("\nrecording gps data stoped");
-					       // }  					
+		         NMEA_Degree(lat,1);
+		         delay(100);
+		    	 NMEA_Degree(lng,2);
+           		 delay(100);
+			 u2_print("\ncoordinates: ");
+                         u2_print(lat);
+			 u2_print(",");							 
+		         u2_print(lng);
+          		 delay(500);										
+		         GPIOC->ODR |= 0x2000; //PA1 blink			
+		         x=0;
+			 //gsm_msg();
+			 memset(u2_buff,0,300);
+		         u2_ptr=0;
+			 //if(z==4){
+             		 USART2->CR1 &= ~USART_CR1_RE;
+			 x=3;
+			 u2_print("\nrecording gps data stoped");
+			// }  					
 		             }	
 		 else if(x==3){
 			 delay(1000);
@@ -140,12 +140,12 @@ GPIOC->CRH |= 0x00300000;
 			 delay(2000);
 			 gsm_msg();
 			 delay(2000);
-			  	memset(lat,0,12);	
-	          memset(lng,0,12);
+			 memset(lat,0,12);	
+	                 memset(lng,0,12);
 			 x=0;
 		           }
 		
-    else {
+    		else {
 		//z++;
 		//u2_print();
 		//if there is nothing to do then go to sleep mode for power saving 
