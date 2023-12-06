@@ -1,21 +1,21 @@
 /*
-author     - Shubham Anil Khangar
+author: Shubham Anil Khangar
 Course: Msc. (Electronics Science) 
-University - Savitribai Phule Pune University
-Proejct    - Tracking Belt for Domestic Animals Using ARM Cortex M-3, SIMCOM GSM, and UBLOX NEO 6M GPS 
-Date       - 30 june 2023
+University: Savitribai Phule Pune University
+Project: Tracking Belt for Domestic Animals Using ARM Cortex M-3, SIMCOM GSM, and UBLOX NEO 6M GPS 
+Date: 30 june 2023
 */
  
 
-/*Library included here */
+/* Library included here */
 #include "stm32f10x.h"
 #include <string.h>
 #include <stdlib.h>
 
-/*Global Function and Varible declaration*/
+/* Global Function and Varible declaration*/
 void delay(int n);
 void u1_init(void);   //gsm module is connected with the U1
-void u1_print(char*); //gps module is connected to the U2
+void u1_print(char*); // The GPS module is connected to the U2
 void u1_txChar(char);
 void u2_init(void);
 void u2_print(char*);
