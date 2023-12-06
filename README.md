@@ -7,6 +7,10 @@ The code for the project is provided in this repository. The controller is progr
 
 The user needs to request the system for its location data in the form of either a GPS call or a normal message from a registered mobile number, and after successfully receiving the request from the user, the MCU processes the GPS data and sends it to the user's registered mobile number along with some additional information such as the battery percentage of the system and the system's internal temperature.
 
+# Click on the below buttons to jump to specific folders where the codes are stored.
+
+[![Static Badge](https://img.shields.io/badge/Code-blue)](Code.c)
+
 # Hardware  
 ![Static Badge](https://img.shields.io/badge/ARM_CORTEX_M3-white)![Static Badge](https://img.shields.io/badge/STM32F103C8T6-blue)![Static Badge](https://img.shields.io/badge/SIM800l-red)![Static Badge](https://img.shields.io/badge/Ublox_Neo_6M-violet)
 
