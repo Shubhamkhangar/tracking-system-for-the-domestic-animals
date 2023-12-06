@@ -2,7 +2,7 @@
 author: Shubham Anil Khangar
 Course: Msc. (Electronics Science) 
 University: Savitribai Phule Pune University
-Project: Tracking Belt for Domestic Animals Using ARM Cortex M-3, SIMCOM GSM, and UBLOX NEO 6M GPS 
+Project: Tracking System for Domestic Animals based on ARM Cortex M3                              
 Date: 30 june 2023
 */
  
