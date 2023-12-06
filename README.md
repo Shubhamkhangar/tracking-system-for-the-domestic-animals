@@ -9,7 +9,7 @@ The user needs to request the system for its location data in the form of either
 
 #Click on the below buttons to jump to specific folders where the codes are stored.
 
-[![Static Badge](https://img.shields.io/badge/Code-blue)](Code.c)
+[![Static Badge](https://img.shields.io/badge/Code-blue)](code.c)
 
 # Hardware  
 ![Static Badge](https://img.shields.io/badge/ARM_CORTEX_M3-white)![Static Badge](https://img.shields.io/badge/STM32F103C8T6-blue)![Static Badge](https://img.shields.io/badge/SIM800l-red)![Static Badge](https://img.shields.io/badge/Ublox_Neo_6M-violet)
